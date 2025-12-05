@@ -7,10 +7,18 @@ all variables used in the child malnutrition analysis.
 <!-- markdownlint-disable MD013 -->
 ## Quick Reference Table
 
-| Variable | Source | Type | Unit | Description | Notes / Constraints |
-|----------|--------|------|------|-------------|-------------------|
-| `country` | All datasets | Categorical | Text | Standardized country name | Must be consistent across datasets; missing or non-country rows removed |
-| `year` | All datasets | Numeric | Year | Year of data collection | Some datasets are annual, some are multi-year averages |
+| Variable                    | Source                | Type                  | Unit           | Description                                                                 | Notes / Constraints                                                                 |
+|-----------------------------|---------------------|---------------------|---------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| country                     | All datasets         | Categorical          | Text           | Standardized country name                                                   | Must be consistent across datasets; missing or non-country rows removed          |
+| year                        | All datasets         | Numeric              | Year           | Year of data collection                                                     | Some datasets are annual, some are multi-year averages                            |
+| stunting                    | UNICEF – JME         | Dependent            | Percent (%)    | % of children under 5 whose height-for-age is below –2 SD (moderate + severe) | Missing values in some countries/years                                           |
+| wasting                     | UNICEF – JME         | Dependent            | Percent (%)    | % of children under 5 whose weight-for-height is below –2 SD (moderate + severe) | Missing values in some countries/years                                           |
+| severe_wasting              | UNICEF – JME         | Dependent            | Percent (%)    | % of children under 5 whose weight-for-height is below –3 SD (severe)       | Missing values in some countries/years                                           |
+| gdp_ppp_per_capita          | World Bank – WDI     | Independent          | International $| GDP per capita (PPP, constant 2017 $)                                      | Reflects national wealth; some missing country-years; does not capture inequality |
+| income_group                | UNICEF – JME         | Independent / Control| Categorical    | Income group classification for the country-year (low, lower-middle, upper-middle, high) | Missing for some countries; categorical; used as a contextual control            |
+| refugee_population_origin   | Our World in Data    | Independent          | Number         | Refugee population by country of origin                                     | Proxy for instability/conflict; may underestimate internal displacement; annual data |
+| female_primary_education    | World Bank Education | Independent          | Percent (%)    | % of women 25+ completing at least primary school                           | Measures maternal education; missing values in LICs; completion only, not quality |
+| prevalence_undernourishment | FAOSTAT              | Independent          | Percent (%)    | % of population with insufficient dietary energy intake (3-year average)   | Reflects national food security; 3-year rolling average smooths short-term shocks; may miss individual variation |
 
 ---
 <!-- markdownlint-disable MD013 -->
@@ -175,15 +183,8 @@ associations with child malnutrition:
 
 1. **Economic factors**: GDP per capita, income group
 2. **Stability factors**: Refugee population (conflict proxy)
-3. **Human capital**: Female education
+3. **Mother's education**: Female education
 4. **Food security**: Undernourishment prevalence
-
----
-
-## Updates and Versioning
-
-- **Last updated**: 29-November-2025
-- **Data period covered**: Varies by source (see data sources document)
 
 ---
 
