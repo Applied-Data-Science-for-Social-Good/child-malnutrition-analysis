@@ -3,66 +3,112 @@
 Analysis of the determinants of child malnutrition using multi-source global datasets
 (UNICEF, World Bank, FAO, UNHCR).
 
-## 🎯 Project Objectives
+This project provides a full analytical workflow for understanding global
+malnutrition patterns and the dependent factors linked to them. The
+notebook combines multiple datasets and applies descriptive analysis,
+statistical tests, trend exploration, and mixed effects regression modeling.
 
-1. Identify key socioeconomic determinants of child malnutrition
-2. Analyze cross-country patterns and time trends
-3. Provide evidence-based insights for policy interventions
+## Project Motivation
 
-## 📊 Data Sources
+Malnutrition remains a major global issue driven by overlapping pressures
+related to economic instability, limited food access, conflict exposure,
+forced displacement, and unequal access to essential services. These pressures
+interact across years and across countries. This project examines these
+dynamics through a multi phase analysis pipeline to understand which
+conditions are most strongly linked with variations in malnutrition indicators.
 
-- **UNICEF JME**: Child malnutrition indicators (stunting, wasting)
-- **World Bank**: GDP per capita, education statistics
-- **FAOSTAT**: Food security indicators
-- **UNHCR/OWID**: Refugee population data
+## Features
 
-See [docs/02_data_sources.md](docs/02_data_sources.md) for detailed information.
+- End to end workflow in one Jupyter notebook
+- Automated data loading and validation
+- Exploratory visualizations and correlation analysis
+- ANOVA and Tukey HSD statistical tests
+- Time series trends across countries
+- Mixed effects regression models with country level random effects
+- Country level and income group comparisons
+- Final merged analytical dataset
+- Synthesized conclusions and recommendations
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 malnutrition-analysis/
-│
-├── README.md                # This file
-├── LICENSE                  # Project license
-├── .gitignore               # Git ignore rules
-│
-├── data/
-│   ├── raw/                 # Original datasets (not in git)
-│   ├── processed/           # Cleaned datasets
-│   └── final/               # Merged analysis-ready data
-│
-├── docs/
-│   ├── 01_variable_dictionary.md  # Variable definitions
-│   ├── 02_data_sources.md         # Dataset sources
-│   ├── 03_constraints.md          # Limitations
-│   └── 04_methods.md              # Methodology
-│
-├── notebooks/
-│   ├── 01_exploration_dependents.ipynb
-│   ├── 02_phase_1_analysis.ipynb
-│   ├── 03_phase_2_analysis.ipynb
-│   ├── 04_phase_3_country_trends.ipynb
-│   └── 05_results_interpretation.ipynb
-│
-└── communication/
-    ├── report.md            # Final report
-    └── presentation.pptx    # Presentation
+├── .github/
+├── .vscode/
+├── .gitignore
+├── .ls-lint.yml
+├── .markdownlint.yml
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md # Main project README
+├── guide.md # Root-level guide (optional)
+
+├── 0_domain_study/
+│ ├── README.md
+│ └── guide.md
+
+├── 1_datasets/
+│ ├── 01_variable_dictionary.md
+│ ├── 02_data_sources.md
+│ ├── 03_constraints.md
+│ ├── README.md
+│ └── guide.md
+
+├── 2_data_preparation/
+│ ├── README.md
+│ └── guide.md
+
+├── 3_data_exploration/
+│ ├── README.md
+│ └── guide.md
+
+├── 4_data_analysis/
+│ ├── README.md
+│ ├── analysis.md
+│ ├── guide.md
+│ ├── method.md
+│ └── summary.md
+
+├── 5_communication_strategy/
+│ ├── README.md
+│ ├── guide.md
+│ └── report.md
+
+├── 6_final_presentation/
+│ ├── README.md
+│ ├── guide.md
+│ └── malnutrition_analysis_presentation.pdf
 ```
 
-## 🚀 Getting Started
+### Notebook Phases
+
+- Phase 1: Data Loading and Objectives  
+- Phase 2: Exploratory Data Analysis  
+- Phase 3: Statistical Testing  
+- Phase 4: Mixed Effects Modeling  
+- Phase 5: Synthesis and Recommendations  
+
+## Getting Started
 
 ### Prerequisites
 
 - Python 3.8+
 - Jupyter Notebook
-- Required libraries (see requirements.txt)
+- Required libraries:
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - openpyxl
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/malnutrition-analysis.git
+git clone git@github.com:Applied-Data-Science-for-Social-Good/child-malnutrition-analysis.git
 cd malnutrition-analysis
 
 # Create virtual environment
@@ -70,43 +116,25 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install pandas numpy matplotlib seaborn scikit-learn statsmodels openpyxl
 ```
 
 ### Data Setup
 
-1. Download datasets from sources listed in `docs/02_data_sources.md`
-2. Place raw data in `data/raw/`
-3. Run cleaning notebooks in order
+1. Download datasets from sources listed in `1_datasets\02_data_sources.md`
+2. Follow steps listed in `2_data_preparation\README.md`
 
-## 📖 Documentation
-
-- **[Variable Dictionary](docs/01_variable_dictionary.md)**: All variables used
-in analysis
-- **[Data Sources](docs/02_data_sources.md)**: Detailed source information
-- **[Constraints](docs/03_constraints.md)**: Data limitations and gaps
-- **[Methods](docs/04_methods.md)**: Analytical methodology
-
-## 📈 Analysis Phases
-
-### Phase 1: Cross-Country Analysis
-
-Complete-case dataset analysis examining relationships between malnutrition and
-key predictors.
-
-## 🤝 Contributing
+## Contributing
 
 This is a research project. If you find errors or have suggestions, please open
 an issue.
 
-## 📝 License
+## Contact
 
-## 📧 Contact
+- GitHub: [Huda](https://github.com/hudaalamassi),
+[Malak](https://github.com/malakbattat), [Razan](https://github.com/Razan-O-Elobeid)
 
-- Email:
-- GitHub:
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - UNICEF for malnutrition data
 - World Bank for economic indicators
