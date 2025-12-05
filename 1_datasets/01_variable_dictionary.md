@@ -21,6 +21,34 @@ all variables used in the child malnutrition analysis.
 | prevalence_undernourishment | FAOSTAT              | Independent          | Percent (%)    | % of population with insufficient dietary energy intake (3-year average)   | Reflects national food security; 3-year rolling average smooths short-term shocks; may miss individual variation |
 
 ---
+---
+
+## Notes on the Variable Dictionary
+
+**Dependent variables:**  
+
+- `stunting`, `wasting`, `severe_wasting` - primary child malnutrition outcomes.  
+
+**Independent variables:**  
+
+- `gdp_ppp_per_capita`, `income_group`, `refugee_population_origin`,  
+  `female_primary_education`, `prevalence_undernourishment` - factors that may influence malnutrition.  
+
+---
+
+## Income Group Values
+
+From datasets (standardized):
+
+| Value (lowercase)         | Meaning                                                  |
+|---------------------------|----------------------------------------------------------|
+| low income                | Countries classified as low-income by the World Bank.   |
+| lower middle income       | Countries classified as lower-middle-income by World Bank. |
+| upper middle income       | Countries classified as upper-middle-income by World Bank. |
+| high income               | Countries classified as high-income by the World Bank.  |
+| nan                       | Missing value: no income group information available.   |
+
+---
 <!-- markdownlint-disable MD013 -->
 ## Dependent Variables
 
