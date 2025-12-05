@@ -3,10 +3,10 @@
 ## Malnutrition Data Sources
 
 - **JME_Country_Estimates_April_2021.xlsx** (687.74 kB):  
-  [Kaggle link](https://www.kaggle.com/datasets/usharengaraju/child-malnutrition-unicef-dataset)
+  [Kaggle](https://www.kaggle.com/datasets/usharengaraju/child-malnutrition-unicef-dataset)
 
 - **UNICEF Data Portal**:  
-  [https://data.unicef.org/topic/nutrition/malnutrition/](https://data.unicef.org/topic/nutrition/malnutrition/)
+  [UNICEF](https://data.unicef.org/topic/nutrition/malnutrition/)
 
 - **Estimates (2025 edition)**:  
   - Stunting: National & Disaggregated  
@@ -43,7 +43,7 @@ Data sources to be added:
 - [Source 3](https://drive.google.com/file/d/1X_UxTya1bZJIlN7OIDPp_3ZYmMHwz2Yv/view?usp=sharing)  
 - [Source 4](https://drive.google.com/file/d/1ynriHh0-iSLCu6YDPpSv1JS6qIc2zhOg/view?usp=sharing)  
 
-Work done: [Google Colab2](https://colab.research.google.com/drive/1zCBorqF2DaRgydWs9EPouHRYyuoltRLm?usp=sharing)
+Work done on: [Google Colab2](https://colab.research.google.com/drive/1zCBorqF2DaRgydWs9EPouHRYyuoltRLm?usp=sharing)
 
 ### Final Resulted Datasets
 
