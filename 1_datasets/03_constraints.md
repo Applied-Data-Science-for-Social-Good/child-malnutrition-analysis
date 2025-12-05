@@ -6,18 +6,18 @@ Global datasets on malnutrition and socio-economic indicators are incomplete.
 Key patterns include:
 
 - **Geographic Gaps**  
-  - Low-income countries tend to have more missing observations due to limited  
-    survey capacity.  
-  - Conflict-affected regions often lack consistent reporting, creating blind  
-    spots in crisis zones.  
-  - Small island nations may be excluded entirely from some datasets due to  
-    their size or limited survey coverage.  
+  - Low-income countries tend to have more missing observations due to limited
+survey capacity.  
+  - Conflict-affected regions often lack consistent reporting, creating blind
+  spots in crisis zones.  
+  - Small island nations may be excluded entirely from some datasets due to
+  their size or limited survey coverage.  
 
 - **Temporal Gaps**  
-  - **UNICEF JME:** Irregular updates; some countries go 5+ years without new  
-    survey data.  
-  - **World Bank Education Indicators:** Updated every 3–5 years for many  
-    countries.  
+  - **UNICEF JME:** Irregular updates; some countries go 5+ years without
+  new survey data.  
+  - **World Bank Education Indicators:** Updated every 3–5 years for many
+  countries.  
   - **Economic indicators (GDP, inflation, etc.):** Generally more complete but
     may lag in politically unstable countries.  
 
