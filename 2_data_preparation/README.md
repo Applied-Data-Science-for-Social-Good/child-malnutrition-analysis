@@ -8,7 +8,7 @@
 - **UNICEF Data Portal**:  
   [UNICEF](https://data.unicef.org/topic/nutrition/malnutrition/)
 
-- **Estimates (2025 edition)**:  
+  **Estimates (2025 edition)**:  
   - Stunting: National & Disaggregated  
   - Wasting: National & Disaggregated  
   - Severe wasting: National & Disaggregated  
