@@ -23,19 +23,19 @@ Key patterns include:
 
 - **Variable-Specific Issues**  
 
-- Stunting, wasting, and severe wasting are survey-based and reported in irregular
+  - Stunting, wasting, and severe wasting are survey-based and reported in irregular
 years. They are subject to sampling error, seasonality effects, and recall bias.
 
-- Maternal education data is often missing in older datasets and in countries with
+  - Maternal education data is often missing in older datasets and in countries with
 low survey coverage. This can limit analyses that rely on education as a predictor.
 
-- Refugee and displacement data are incomplete for internally displaced persons
+  - Refugee and displacement data are incomplete for internally displaced persons
 and short-term flows. These datasets likely underestimate actual populations.
 
-- GDP per capita and other economic indicators are generally complete, but they
+  - GDP per capita and other economic indicators are generally complete, but they
 mask subnational disparities and regional inequality within countries.
 
-- Undernourishment data comes from intermittent surveys. Differences in
+  - Undernourishment data comes from intermittent surveys. Differences in
 measurement definitions can introduce inconsistencies across countries and years.
 
 ---
