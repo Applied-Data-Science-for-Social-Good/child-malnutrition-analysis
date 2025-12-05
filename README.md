@@ -131,8 +131,8 @@ an issue.
 
 ## Contact
 
-- GitHub: [Huda](https://github.com/hudaalamassi),
-[Malak](https://github.com/malakbattat), [Razan](https://github.com/Razan-O-Elobeid)
+- GitHub: [Huda Alamassi](https://github.com/hudaalamassi),
+[Malak Battat](https://github.com/malakbattat), [Razan Ibrahim](https://github.com/Razan-O-Elobeid)
 
 ## Acknowledgments
 
