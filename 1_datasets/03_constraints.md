@@ -44,15 +44,15 @@ measurement definitions can introduce inconsistencies across countries and years
 
 ### Measurement Issues
 
-- **Malnutrition indicators:** Based on intermittent surveys; subject to  
-  measurement error.  
+- **Malnutrition indicators:** Based on intermittent surveys; subject to measurement
+error.  
 - **Economic indicators:** National averages ignore within-country inequality.  
 - **Refugee and displacement data:** Often incomplete for internal movements.  
 
 ### Methodological Constraints
 
-- **Data quality and comparability:** Surveys differ in design, timing, and  
-  definitions.  
+- **Data quality and comparability:** Surveys differ in design, timing, and
+definitions.  
 - **Missingness handling:** Imputation/interpolation may introduce bias, especially
   where gaps are long.  
 - **Multicollinearity:** Strong correlations among socio-economic predictors require
@@ -64,8 +64,8 @@ measurement definitions can introduce inconsistencies across countries and years
 
 ## Summary
 
-The datasets provide insight into global trends but must be interpreted with  
+The datasets provide insight into global trends but must be interpreted with
 caution. Observed patterns reflect true differences and artifacts from data gaps,
-measurement error, and methodological constraints. Analyses are descriptive and
-correlational, not causal, and should guide hypotheses, planning, and further  
+measurement error, and methodological constraints. Analyses are descriptive and correlational,
+not causal, and should guide hypotheses, planning, and further
 research rather than definitive policy prescriptions.
